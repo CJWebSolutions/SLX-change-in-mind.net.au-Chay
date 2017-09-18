@@ -1,0 +1,313 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/*----------------------------------------------------------------
+    Font Family
+----------------------------------------------------------------*/
+
+h1, 
+h2, 
+h3, 
+h4,
+#header1 p,
+header,
+#banner p,
+.btn, 
+.formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+/*----------------------------------------------------------------
+    Branding Colour
+----------------------------------------------------------------*/
+
+body,
+ul li {
+    color: #333;
+}
+ul li:before {
+    content: '\f00c';
+}
+body {
+    font-size: 20px;
+}
+h4,
+body {
+    line-height: 30px;
+}
+
+#services p,
+#header1 p,
+#header2a:before, 
+#header2a a,header span, 
+#header2b a,
+header a:hover,
+#banner h1, 
+#banner p {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+  
+#contact h2,
+#contact h3 
+#contact p,
+.contact_detail, 
+.contact_detail a {
+    color:#fff;
+}
+#content h2, 
+#content h3,
+#content h4 {
+    color: #33458b;
+    font-weight: 600;
+}
+#banner p {
+    font-size: 19px;
+}
+
+body, 
+.formbuilder-form .row label {
+    font-weight:400;
+}
+
+#header1 p {
+    font-weight: 400;
+}
+
+#services h3 {
+    color:#add7f0;
+    font-weight: 600;
+}
+
+#services p{
+    font-weight:100;
+}
+
+.btn, 
+.formbuilder-form input#submit-form,
+.formbuilder-form input#submit-form:hover,
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover {
+   text-transform: uppercase;
+}
+
+#header2b a, 
+footer a:hover,
+.contact_detail a,
+.contact_detail a:hover,
+btn, 
+.btn:hover, 
+.btn:focus, 
+.formbuilder-form input#submit-form,
+.formbuilder-form input#submit-form:hover, 
+.formbuilder-form input#submit-form:focus, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover,
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:focus {
+    text-decoration: none;
+}
+    
+/*----------------------------------------------------------------
+    Form
+----------------------------------------------------------------*/
+
+.form, 
+#extraFormsContainer .modal-dialog{
+    border-radius:0px;;
+    border-top:5px solid #33458b;
+    background-color: rgb(252, 252, 252);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+.formbuilder-form .row label {
+    color:#33458b;
+}
+
+.formbuilder-form .row input, 
+.formbuilder-form .row select, 
+.formbuilder-form .row textarea {
+    color:#000;
+    background-color:#fff;
+    border:1px solid #e8e8e8;
+}
+/*----------------------------------------------------------------
+    Buttons
+----------------------------------------------------------------*/
+
+.btn {
+    color: #FFF;
+    border: 2px solid rgb(255, 255, 255);
+    background: transparent;
+    width:40%;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form {
+    color:#fff;
+    background-color: rgb(51, 69, 139);
+    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+
+@media (min-width: 711px) {
+    .btn:hover, 
+    .btn:focus, 
+    .btn:active, 
+    .btn.active, 
+    .open>.dropdown-toggle.btn {
+        color: #fff;
+        font-weight:600;
+        border: 2px solid #33458b;
+        background-color: rgba(51, 69, 139,0.7);
+    }
+} 
+
+.formbuilder-form input#submit-form:hover, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover{
+    background-color: rgba(47, 46, 46, 1);
+    border-color: rgba(176, 214, 184, 1);
+    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+
+/*----------------------------------------------------------------
+    Custom Styles
+----------------------------------------------------------------*/
+
+#contact2b, 
+#contact2d, 
+#contact1b, 
+#content2b{
+    display:none;
+}
+
+/*----------------------------------------------------------------
+    Header
+----------------------------------------------------------------*/
+#header {
+    padding: 25px 0 0px 0;
+    width: 100%;
+    z-index: 1;
+    margin: auto;
+    position: absolute;
+    background-color: rgba(51, 69, 139, 0.8);
+}
+
+#header1 p {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size:50px;
+    line-height:0;
+}
+
+#header2b {
+    font-size: 23px;
+}
+
+#header2 {
+    padding-bottom:37px;
+}
+
+#wrapper { 
+    position: relative; 
+}
+
+/*----------------------------------------------------------------
+    Banner
+----------------------------------------------------------------*/
+
+#banner1 {
+    padding: 155px 10px 3px;
+}
+
+#banner h1 {
+    font-size: 55px;
+}
+
+.banner_cover {
+    opacity: 0.2;
+    background-color:#000;
+}
+
+#banner1, #banner h1 {
+    margin:0;
+    text-align: left;
+}
+
+/*----------------------------------------------------------------
+    Services
+----------------------------------------------------------------*/
+
+#services {
+    padding: 20px 0 0px 0;
+}
+
+#service1,
+#service2,
+#service3,
+#service4 {
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+#gallery {
+    height:300px;
+}
+/*----------------------------------------------------------------
+  Contact 
+----------------------------------------------------------------*/
+
+/*----------------------------------------------------------------
+    Footer
+----------------------------------------------------------------*/
+footer *, 
+footer a , 
+footer {
+    color: #ecf0ff;
+}
+footer {
+    border-top:5px solid #ecf0ff;
+    background-color: #454545;
+    padding: 25px 0 25px;
+}
+
+/*----------------------------------------------------------------
+    Media Queries
+----------------------------------------------------------------*/
+@media only screen and (max-width: 767px) and (min-width: 0px)  {  
+    #banner h1 , #banner p,.btn{
+        text-align:center;
+    }
+    #header {
+        padding-bottom:0px;
+    }
+    #header2b {
+        line-height:15px;
+    }
+    #banner h1 {
+        font-size:45px;
+        padding: 10px 10px 3px;
+    }
+}
+@media (max-width:991px) {
+    #header1 p {
+        font-size:45px;
+        line-height:50px
+    }
+}
+@media (max-width: 600px) {
+    .btn{
+        width:100%;
+        word-wrap: break-word;
+    }
+}
+@media (min-width: 0px) {
+    .btn {
+        margin-top: 10px;
+    }
+}
+@media (max-width: 767px) {
+    #service3 {
+        clear:left;
+    }
+}
